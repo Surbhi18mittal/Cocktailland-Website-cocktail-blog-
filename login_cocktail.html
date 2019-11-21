@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Cocktail land</title>
+            <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+              <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+              <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+              <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+              <link rel="stylesheet" href="cocktail.css">
+    </head>
+    <body>
+            <video autoplay muted loop id="myVideo">
+                <source src="D:\BootStrap\cocktail\video_login.mp4" width="800px">
+            </video>
+            <div class="content">
+                <h1>
+                    LogIn
+                </h1>
+                <hr>
+                <form method="post" class="login_form">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                               <label for="username"><b>Username</b></label><br>
+                                <input type="text" class="w3-input" name="username" placeholder="username" required><br>
+                                <label for="password"><b>Password</b></label><br>
+                                <input type="password" class="w3-input" name="password" placeholder="Password" required><br>
+                                <button type="submit" onsubmit="authenticate(username, password)">Log In</button><br>
+                                <a href="#" class="forget_pasw">Forget Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>

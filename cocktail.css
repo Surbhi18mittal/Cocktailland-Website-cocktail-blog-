@@ -1,0 +1,259 @@
+body{
+    background-color: #ffffff;
+}
+.top-nav{
+
+ word-spacing: 40px;
+ font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-size: 25px;
+    color:white
+}
+.active
+{
+    text-shadow: black;
+}
+.navbar{
+    border-radius: 0mm;
+    word-spacing: 30px;
+    height:70px;
+    
+    background-color:rgb(4,48,68); 
+}
+.navbar-brand{
+    right:500px;
+    font-family: 'Dancing Script', cursive;
+    font-size:33px;
+    color:black;
+}
+ .heading-image img{
+    position: absolute;
+    left:0px;
+    top:69px;
+    
+    
+}
+.heading{
+    
+    font-style: normal;
+    font-weight: 800;
+    color:whitesmoke;
+    font-size:65px;
+    
+}
+
+
+.trending{
+    
+    margin-left:-30px;
+    
+}
+.trending img{
+    width:460px;
+    height:340px;
+
+}
+.heading2
+{
+    color:black;
+    z-index: -1;
+}
+.heading1
+{
+font-family: 'Dancing Script', cursive;
+text-align: center;
+color:black;
+font-size: 65px;
+}
+.about
+{
+    border:1px solid rgb(73, 72, 72);
+    border-width:0px;
+    box-shadow: #b1aeae;
+    font-family: 'Dancing Script', cursive;
+    word-break:break-all;
+    font-size: 25px;
+    
+    text-align:center;
+    margin-top: 30%;
+    margin-left:-30px;
+}
+.cocktails p{
+    font-size:22px;
+    word-break: break-all;
+    border:1px
+     solid white;
+}
+.cocktails .col-sm-6
+{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+/* .background{
+    margin-top:10px;
+    margin-bottom: 10px;
+} */
+.explore1 .col-sm-4
+{
+    
+    margin-top:8px;
+    margin-bottom: 10px;
+    
+   
+}
+.explore1 h5{
+ text-align: center;
+}
+.search-button
+{
+    
+    text-align: center;
+}
+button
+{
+    background-color:rgb(4, 48, 68);
+    color:white;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
+    position: absolute;
+right: 40%;
+    height: 50px;
+    width:270px;
+}
+.footer
+{
+    background-color: rgb(4, 48, 68);
+    color:white;
+}
+.footer-main
+{
+    border-top:1px solid rgba(208,208,208,.5);
+    padding:2.5rem 0;
+    
+
+}
+.row1
+{
+    max-width:60rem;
+    margin-right:20%;
+    margin-left:30%;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow:normal;
+    font-family: 'Dancing Script', cursive;
+}
+.small-12{
+    max-width:90%;
+}
+.menu
+{
+    list-style-type: none;
+}
+.heading2{
+    font-size:40px;
+    font-family: 'Dancing Script', cursive;
+}
+.recepie-box
+{
+ /*   border:1px solid rgb(6, 110, 158);
+    border-width: 2px;
+    border-radius: 6px;*/
+    
+    padding-left:70px;
+}
+.navbar-form
+{
+    margin-left:40%;
+
+}
+.navbar-form input
+{
+    width:120px;
+}
+
+.btn{
+    width:50px;
+    height:34px;
+    align-content:center
+    
+}
+.signup_form
+{
+    font-size:20px;
+    font-family: 'Dancing Script', cursive;
+    margin-left:100px;
+    align-content: center;
+    color:rgb(4,48,68);
+}
+.signup_form input
+{
+    border-radius: 6px;
+  
+}
+.content
+{
+    position:fixed;
+    bottom:0;
+    background:rgba(0,0,0,0.5);
+    color:#f1f1f1;
+    width:100%;
+    padding:200px;
+    
+}
+#myVideo
+{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:100%;
+    min-height: 100%;
+}
+.login_form
+{
+    font-weight: bolder;
+    font-size:25px;
+    font-family: 'Dancing Script', cursive;
+    align-content: center;
+    color:rgb(37, 175, 235);
+}
+.login_form input{
+    border-radius:6px;
+}
+.content h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.content button{
+    align-content: center;
+    width:150px;
+}
+.beerMargarita_recepie
+{
+    font-family: 'Dancing Script', cursive;
+
+    font-size: 20px;
+}
+.beerMargarita_recepie h1
+{
+    font-family: 'Dancing Script', cursive;
+color:rgb(4, 48, 68);
+font-weight: bold;
+}
+.Browse-drinks
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+#Browse-heading
+{
+    text-align:center;
+}
+#A_drinks
+{
+    font-weight: bolder;
+    font-size: 30px;
+}
